@@ -25,6 +25,7 @@ line-height: 0.9;
     line-height: 30px; 
 }
 
+
 .header-button{
 color: #FFF;
 font-size: 20px;
@@ -57,4 +58,57 @@ margin-bottom: 0px;
     line-height: 30px; 
 
 
+}
+
+.featured-content{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.featured-content .featured-1{
+    background-image: url('./FlowerAsset/pngwing10.png');
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+   
+    
+}
+.featured-content .featured-2{
+    background-image: url('./FlowerAsset/pngwing2.png');
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    
+   
+    
+}
+
+.featured-content .featured-3{
+    background-image: url('./FlowerAsset/pngwing3.png');
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+  
+    
+}
+.featured-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+   
+}
+
+.featured-1 img,
+.featured-2 img,
+.featured-3 img {
+    max-width: 500px; 
+    max-height: 500px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.featured-link a{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 10px;
 }
